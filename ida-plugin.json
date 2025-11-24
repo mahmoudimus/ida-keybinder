@@ -3,16 +3,21 @@
   "plugin": {
     "name": "keybinder",
     "entryPoint": "keybinder.py",
-    "categories": [
-      "api-scripting-and-automation",
-      "collaboration-and-productivity"
+    "version": "1.2.0",
+    "description": "A keybinding plugin that allows multi-stroke chords, like in Emacs, to work with IDA.",
+    "idaVersions": ">=9.0",
+    "license": "GPL-3.0",
+    "urls": {
+      "repository": "https://github.com/mahmoudimus/ida-keybinder"
+    },
+    "authors": [
+      {
+        "name": "Mahmoud Abdelkader"
+      }
     ],
     "pythonDependencies": [
       "ida-settings>=3.0.0"
     ],
-    "idaVersions": ">=9.0",
-    "description": "A keybinding plugin that allows multi-stroke chords, like in Emacs, to work with IDA.",
-    "version": "1.2.0",
     "settings": [
       {
         "key": "enabled",
@@ -22,6 +27,21 @@
         "name": "Enable Emacs-like keybindings",
         "documentation": "Enable the Keybinder plugin shortcuts."
       }
+    ],
+    "categories": [
+      "ui-ux-and-visualization",
+      "collaboration-and-productivity"
+    ],
+    "keywords": [
+      "keybindings",
+      "emacs",
+      "shortcuts",
+      "keyboard",
+      "chords",
+      "multi-stroke",
+      "productivity",
+      "qt",
+      "ui-enhancement"
     ]
   }
 }
