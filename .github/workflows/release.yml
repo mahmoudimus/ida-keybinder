@@ -44,10 +44,10 @@ jobs:
 
       - name: Create HCLI plugin archive
         run: |
-          mkdir -p ida-keybinder-plugin
+          mkdir -p ida-keybinder-plugin/src/keybinder
 
-          # Copy plugin file
-          cp keybinder.py ida-keybinder-plugin/
+          # Copy source files
+          cp -r src/keybinder/* ida-keybinder-plugin/src/keybinder/
 
           # Copy metadata and documentation
           cp ida-plugin.json ida-keybinder-plugin/

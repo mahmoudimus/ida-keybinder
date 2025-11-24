@@ -2,11 +2,11 @@
   "IDAMetadataDescriptorVersion": 1,
   "plugin": {
     "name": "keybinder",
-    "entryPoint": "keybinder.py",
+    "entryPoint": "src/keybinder/keybinder.py",
     "version": "1.2.0",
     "description": "A keybinding plugin that allows multi-stroke chords, like in Emacs, to work with IDA.",
     "idaVersions": ">=9.0",
-    "license": "GPL-3.0",
+    "license": "MIT",
     "urls": {
       "repository": "https://github.com/mahmoudimus/ida-keybinder"
     },

@@ -31,6 +31,8 @@ pip install -e .
 
 ### Manual Installation
 
-Download the latest release and extract `keybinder.py` to your IDA plugins directory:
-- Linux/macOS: `~/.idapro/plugins/`
-- Windows: `%APPDATA%\Hex-Rays\IDA Pro\plugins\`
+Download the latest release and extract the `keybinder` package to your IDA plugins directory:
+- Linux/macOS: `~/.idapro/plugins/keybinder/`
+- Windows: `%APPDATA%\Hex-Rays\IDA Pro\plugins\keybinder\`
+
+The plugin will be automatically loaded by IDA Pro on startup.

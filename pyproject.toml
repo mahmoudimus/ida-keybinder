@@ -10,12 +10,12 @@ readme = "README.md"
 authors = [
     {name = "Mahmoud Abdelkader"}
 ]
-license = {text = "GPL-3.0"}
+license = {text = "MIT"}
 requires-python = ">=3.8"
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
@@ -32,9 +32,6 @@ Homepage = "https://github.com/mahmoudimus/ida-keybinder"
 Repository = "https://github.com/mahmoudimus/ida-keybinder"
 Issues = "https://github.com/mahmoudimus/ida-keybinder/issues"
 
-[tool.setuptools]
-py-modules = ["keybinder"]
-
 [tool.setuptools.packages.find]
-where = ["."]
+where = ["src"]
 include = ["keybinder*"]
